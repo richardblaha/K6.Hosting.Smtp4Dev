@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Version>9.0.0</Version>
+        <Authors>Richard Bláha &lt;richardblaha@gmail.com&gt;</Authors>
+        <Description>SMTP4DEV support for .NET Aspire.</Description>
+        <PackageTags>aspire integration hosting smtp4dev</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageIcon>k6.png</PackageIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="k6.png">
+            <Pack>True</Pack>
+            <PackagePath>.</PackagePath>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Aspire.Hosting" Version="9.0.0"/>
+    </ItemGroup>
+
+</Project>
